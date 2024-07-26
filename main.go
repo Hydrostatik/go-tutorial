@@ -2,22 +2,32 @@ package main
 
 import (
 	"fmt"
-	"tutorial/day01"
+	"tutorial/day02"
 	"tutorial/lib"
 )
 
 func main() {
-	investmentExample()
+	// investmentExample()
 
-	for i := 0; i < 10; i++ {
-		fmt.Println(lib.TestConditionals(i))
-	}
+	// for i := 0; i < 10; i++ {
+	// 	fmt.Println(lib.TestConditionals(i))
+	// }
 
-	fmt.Println(`Testing switch...`)
-	fmt.Println(lib.TestSwitch(3))
-	fmt.Println()
+	// fmt.Println(`Testing switch...`)
+	// fmt.Println(lib.TestSwitch(3))
+	// fmt.Println()
 
-	day01.ProfitCalculatorApplication()
+	// day01.ProfitCalculatorApplication()
+
+	// fmt.Println()
+
+	// day02.CreatingAssigningAndDereferencing()
+
+	// fmt.Println()
+
+	// day02.ModifyingValuesThroughPointers()
+
+	day02.RPGArena1()
 }
 
 func investmentExample() {
