@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"tutorial/day02"
+	"tutorial/day03"
 	"tutorial/lib"
 )
 
@@ -27,7 +27,10 @@ func main() {
 
 	// day02.ModifyingValuesThroughPointers()
 
-	day02.RPGArena1()
+	// day02.RPGArena1()
+
+	day03.RectanglePlayground()
+	day03.AddressPlayground()
 }
 
 func investmentExample() {
